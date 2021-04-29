@@ -13,15 +13,18 @@ const Line = ({ search, setSearch }) => {
     });
   };
 
+  const searchFunc = (x, index) => {
+    if (x.keywords.toLowerCase().includes(search.toLowerCase())) {
+      return (
+        <p key={index}>
+          {x.symbol} {x.title}
+        </p>
+      );
+    }
+  };
   const searchEngine = () => {
     return emoji.map((x, index) => {
-      if (x.keywords.toLowerCase().includes(search.toLowerCase())) {
-        return (
-          <p key={index}>
-            {x.symbol} {x.title}
-          </p>
-        );
-      }
+      return searchFunc(x, index);
     });
   };
   return (
