@@ -1,3 +1,6 @@
+The project is live here ==> https://inspiring-bhabha-85faa4.netlify.app/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
