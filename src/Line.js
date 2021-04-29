@@ -5,7 +5,7 @@ const Line = ({ search, setSearch }) => {
     return emoji.slice(0, 20).map((x, index) => {
       return (
         <div>
-          <p key={index}>
+          <p key={index} className="emoji">
             {x.symbol} {x.title}
           </p>
         </div>
@@ -16,7 +16,7 @@ const Line = ({ search, setSearch }) => {
   const searchFunc = (x, index) => {
     if (x.keywords.toLowerCase().includes(search.toLowerCase())) {
       return (
-        <p key={index}>
+        <p key={index} className="emoji">
           {x.symbol} {x.title}
         </p>
       );

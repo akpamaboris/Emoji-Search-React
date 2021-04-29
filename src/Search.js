@@ -7,6 +7,7 @@ const Search = ({ search, setSearch }) => {
         <label>
           <input
             type="text"
+            placeholder="What emoji are you looking for?"
             onChange={(event) => {
               setSearch(event.target.value);
             }}

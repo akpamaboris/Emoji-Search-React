@@ -7,9 +7,11 @@ function App() {
   const [search, setSearch] = useState("");
   return (
     <div className="App">
-      <h1>Emoji Search</h1>
-      <Search search={search} setSearch={setSearch} />
-      <Footer />
+      <div className="container">
+        <h1>😎Emoji Search😎</h1>
+        <Search search={search} setSearch={setSearch} />
+        <Footer />
+      </div>
     </div>
   );
 }
