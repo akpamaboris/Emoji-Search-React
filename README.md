@@ -4,6 +4,10 @@
 The project is live here ==> https://inspiring-bhabha-85faa4.netlify.app/ 
 
 
+![Alt Text](https://media.giphy.com/media/8D2BWSLXiiu6c63kEP/giphy.gif)
+
+
+
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
