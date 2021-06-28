@@ -10,7 +10,6 @@ The project is live here ==> https://inspiring-bhabha-85faa4.netlify.app/
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
 ```
 git clone https://github.com/zeliwipin/Emoji-Search-React
